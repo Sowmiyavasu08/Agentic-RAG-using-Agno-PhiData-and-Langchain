@@ -3,6 +3,14 @@
 This project is a **Document Question & Answering Web Application** built using **Streamlit**, **LangChain**, and **Agno SDK**. It allows users to upload documents and ask natural language questions. The app uses a **Retrieval-Augmented Generation (RAG)** architecture enhanced with agentic reasoning to provide accurate, context-aware answers using both document content and real-time web data.
 
 ---
+## 📸 Screenshot
+
+Here’s how the running application looks:
+
+<p align="center">
+  <img src="assets/screenshot.png" width="600"/>
+</p>
+
 
 ## 🧠 Key Features
 
@@ -65,7 +73,8 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 ## 📂 Project Structure
 
 <pre>
-
+├── assets/
+│   └── Screenshot.png
 ├── uploads/           # Folder for uploaded files  
 ├── chroma_db/         # Local vector database directory  
 ├── main.py            # Main Streamlit application  
