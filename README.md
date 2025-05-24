@@ -22,7 +22,7 @@ This project is a **Document Question & Answering Web Application** built using 
 | Component                | Technology         |
 |--------------------------|--------------------|
 | Frontend UI              | Streamlit          |
-| LLM Integration          | [Agno SDK](https://github.com/agnos-ai/agnos-sdk) |
+| LLM Integration          | Agno SDK           |
 | Document QA              | LangChain          |
 | Vector Database          | Chroma             |
 | Embeddings               | SentenceTransformer |
@@ -60,21 +60,21 @@ Create a .env file in the root directory:
 GROQ_API_KEY=your_groq_api_key_here
 GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 ```
+---
 
 ## 📂 Project Structure
 
 <pre>
-\`\`\`text  
-.  
+
 ├── uploads/           # Folder for uploaded files  
 ├── chroma_db/         # Local vector database directory  
 ├── main.py            # Main Streamlit application  
 ├── .env               # Environment variables  
 ├── requirements.txt   # Python dependencies  
 └── README.md          # Project documentation  
-\`\`\`
 </pre>
 
+---
 
 ## 🧪 How It Works
 
@@ -87,6 +87,8 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 - **Tool Use:** If the question is unrelated to the document, it uses DuckDuckGo to search the web or fetches content from URLs in the document.
 
 - **UI Display:** Answers, citations, and conversation history are shown with styled chat bubbles.
+
+---
 
 ## 🤖 Agents Defined
 
@@ -101,12 +103,16 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 ### 3. Website Agent
 - Extracts content from URLs in the uploaded documents.
 
+---
+
 ## 💬 Example Prompt Flow
 **User:** What is covered in the third slide of the PowerPoint?<br>
 **Assistant:** [Analyzes slide content and replies with summarized info]
 
 **User:** Who wrote this document?<br>
 **Assistant:** This question is not related to the uploaded documents. Searching the web for relevant information...
+
+---
 
 ## 📎 **Credits**
 
