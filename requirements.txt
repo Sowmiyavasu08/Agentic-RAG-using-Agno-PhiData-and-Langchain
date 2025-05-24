@@ -1,0 +1,14 @@
+agno
+python-dotenv
+streamlit 
+
+duckduckgo-search
+beautifulsoup4
+
+groq
+sentence-transformers
+chromadb
+
+langchain_unstructured
+unstructured[all-docs]
+langchain_community

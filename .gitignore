@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+env/
+sample/
+trial_code.py
+
+# Ignore all files inside these folders
+uploads copy/
+chroma_db copy/
