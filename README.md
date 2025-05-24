@@ -63,13 +63,13 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 
 ## 📂 Project Structure
 
-.
-├── uploads/                 # Folder for uploaded files
-├── chroma_db/              # Local vector database directory
-├── main.py                 # Main Streamlit application
-├── .env                    # Environment variables
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+`├── uploads/           # Folder for uploaded files
+├── chroma_db/         # Local vector database directory
+├── main.py            # Main Streamlit application
+├── .env               # Environment variables
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation`
+
 
 ## 🧪 How It Works
 
@@ -97,13 +97,13 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 - Extracts content from URLs in the uploaded documents.
 
 ## 💬 Example Prompt Flow
-**User:** What is covered in the third slide of the PowerPoint?
+**User:** What is covered in the third slide of the PowerPoint?<br>
 **Assistant:** [Analyzes slide content and replies with summarized info]
 
-**User:** Who wrote this document?
-**Assistant:** 📢 This question is not related to the uploaded documents. Searching the web for relevant information...
+**User:** Who wrote this document?<br>
+**Assistant:** This question is not related to the uploaded documents. Searching the web for relevant information...
 
-📎 **Credits**
+## 📎 **Credits**
 
 - [Agno SDK](https://github.com/agnos-ai/agnos)
 - [LangChain](https://www.langchain.com/)
