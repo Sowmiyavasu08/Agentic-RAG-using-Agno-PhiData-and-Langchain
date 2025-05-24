@@ -7,7 +7,7 @@ This project is a **Document Question & Answering Web Application** built using 
 
 Here’s how the running application looks:
 
-![Screenshot](assets/screenshot.png)
+![Screenshot](assets/Screenshot.png)
 
 
 ## 🧠 Key Features
