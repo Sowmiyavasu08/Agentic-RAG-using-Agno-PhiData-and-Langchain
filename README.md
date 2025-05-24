@@ -63,12 +63,17 @@ GROQ_CHAT_MODEL=llama3-8b-8192   # or whichever Groq model you're using
 
 ## 📂 Project Structure
 
-`├── uploads/           # Folder for uploaded files
-├── chroma_db/         # Local vector database directory
-├── main.py            # Main Streamlit application
-├── .env               # Environment variables
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation`
+<pre>
+\`\`\`text  
+.  
+├── uploads/           # Folder for uploaded files  
+├── chroma_db/         # Local vector database directory  
+├── main.py            # Main Streamlit application  
+├── .env               # Environment variables  
+├── requirements.txt   # Python dependencies  
+└── README.md          # Project documentation  
+\`\`\`
+</pre>
 
 
 ## 🧪 How It Works
