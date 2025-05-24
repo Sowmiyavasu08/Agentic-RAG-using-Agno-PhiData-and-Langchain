@@ -1,0 +1,6 @@
+{
+  "title": "Agentic RAG — Multi-Agent Retrieval-Augmented Generation System",
+  "description": "Agentic RAG is a cutting-edge AI-powered knowledge assistant that combines advanced retrieval-augmented generation (RAG) with an agentic architecture. Built with Python and Streamlit, it enables users to upload diverse document formats to create a contextual knowledge base using LangChain and Chroma vector embeddings. Beyond document understanding, it incorporates intelligent multi-agent collaboration—featuring web search via DuckDuckGo and dynamic website content extraction—to provide comprehensive, source-backed answers. Powered by Groq’s large language models and SentenceTransformer embeddings, this platform excels at delivering accurate, context-aware responses both from uploaded documents and the broader web, making it an ideal tool for researchers, knowledge workers, and professionals seeking deep insights from heterogeneous data sources.",
+  "tech": ["Python", "Streamlit", "Agno", "LangChain", "Groq LLM", "Chroma Vector Store", "SentenceTransformer Embeddings", "DuckDuckGo Search", "Website Scraping"],
+  "link": "https://github.com/Sowmiyavasu08/Agentic-RAG-using-Agno-PhiData-and-Langchain"
+}
